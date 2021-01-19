@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en"><head><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, embed[type="application/pdf"] {
+    filter: invert(100%) hue-rotate(180deg) brightness(110%) contrast(95%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: #101213;
+   --darkreader-neutral-text: #f3eee9;
+   --darkreader-selection-background: #0053be;
+   --darkreader-selection-text: #ffffff;
+}</style><script class="darkreader darkreader--proxy">(function injectProxy() {
+
+        document.dispatchEvent(new CustomEvent('__darkreader__inlineScriptsAllowed'));
+
+        const addRuleDescriptor = Object.getOwnPropertyDescriptor(CSSStyleSheet.prototype, 'addRule');
+
+        const insertRuleDescriptor = Object.getOwnPropertyDescriptor(CSSStyleSheet.prototype, 'insertRule');
+
+        const deleteRuleDescriptor = Object.getOwnPropertyDescriptor(CSSStyleSheet.prototype, 'deleteRule');
+
+        const removeRuleDescriptor = Object.getOwnPropertyDescriptor(CSSStyleSheet.prototype, 'removeRule');
+
+        const cleanUp = () => {
+
+            Object.defineProperty(CSSStyleSheet.prototype, 'addRule', addRuleDescriptor);
+
+            Object.defineProperty(CSSStyleSheet.prototype, 'insertRule', insertRuleDescriptor);
+
+            Object.defineProperty(CSSStyleSheet.prototype, 'deleteRule', deleteRuleDescriptor);
+
+            Object.defineProperty(CSSStyleSheet.prototype, 'removeRule', removeRuleDescriptor);
+
+            document.removeEventListener('__darkreader__cleanUp', cleanUp);
+
+            document.removeEventListener('__darkreader__addUndefinedResolver', (e) => addUndefinedResolver(e));
+
+        };
+
+        const addUndefinedResolver = (e) => {
+
+            customElements.whenDefined(e.detail.tag).then(() => {
+
+                document.dispatchEvent(new CustomEvent('__darkreader__isDefined', { detail: { tag: e.detail.tag } }));
+
+            });
+
+        };
+
+        document.addEventListener('__darkreader__cleanUp', cleanUp);
+
+        document.addEventListener('__darkreader__addUndefinedResolver', (e) => addUndefinedResolver(e));
+
+        const updateSheetEvent = new Event('__darkreader__updateSheet');
+
+        function proxyAddRule(selector, style, index) {
+
+            addRuleDescriptor.value.call(this, selector, style, index);
+
+            if (this.ownerNode && !this.ownerNode.classList.contains('darkreader')) {
+
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+
+            }
+
+            return -1;
+
+        }
+
+        function proxyInsertRule(rule, index) {
+
+            const returnValue = insertRuleDescriptor.value.call(this, rule, index);
+
+            if (this.ownerNode && !this.ownerNode.classList.contains('darkreader')) {
+
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+
+            }
+
+            return returnValue;
+
+        }
+
+        function proxyDeleteRule(index) {
+
+            deleteRuleDescriptor.value.call(this, index);
+
+            if (this.ownerNode && !this.ownerNode.classList.contains('darkreader')) {
+
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+
+            }
+
+        }
+
+        function proxyRemoveRule(index) {
+
+            removeRuleDescriptor.value.call(this, index);
+
+            if (this.ownerNode && !this.ownerNode.classList.contains('darkreader')) {
+
+                this.ownerNode.dispatchEvent(updateSheetEvent);
+
+            }
+
+        }
+
+        Object.defineProperty(CSSStyleSheet.prototype, 'addRule', Object.assign({}, addRuleDescriptor, { value: proxyAddRule }));
+
+        Object.defineProperty(CSSStyleSheet.prototype, 'insertRule', Object.assign({}, insertRuleDescriptor, { value: proxyInsertRule }));
+
+        Object.defineProperty(CSSStyleSheet.prototype, 'deleteRule', Object.assign({}, deleteRuleDescriptor, { value: proxyDeleteRule }));
+
+        Object.defineProperty(CSSStyleSheet.prototype, 'removeRule', Object.assign({}, removeRuleDescriptor, { value: proxyRemoveRule }));
+
+    })()</script><style class="darkreader darkreader--user-agent" media="screen">html {
+    background-color: #151819 !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #151819;
+}
+html, body, input, textarea, select, button {
+    border-color: #7e7566;
+    color: #ffffff;
+}
+a {
+    color: #35a1ff;
+}
+table {
+    border-color: #5b6366;
+}
+::placeholder {
+    color: #c7bfb4;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #5c6300 !important;
+    color: #ffffff !important;
+}
+::-webkit-scrollbar {
+    background-color: #1f2223;
+    color: #bfb7aa;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #494f53;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #5e666b;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #4d5457;
+}
+::-webkit-scrollbar-corner {
+    background-color: #151819;
+}
+* {
+    scrollbar-color: #1f2223 #494f53;
+}
+::selection {
+    background-color: #0053be !important;
+    color: #ffffff !important;
+}
+::-moz-selection {
+    background-color: #0053be !important;
+    color: #ffffff !important;
+}</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex">
+  <title>My Weblog</title>
+  <link rel="stylesheet" type="text/css" href="home.htlm_files/style.html"><style class="darkreader darkreader--sync" media="screen"></style>
+<meta name="darkreader" content="6bef099d91cb326aadb6360ce0b28e18"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: #885a00 !important;
+    border-color: #f3c50f !important;
+    color: #ffffe1 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}</style></head>
+
+<body style="font:normal medium 'Gill Sans','Gill Sans MT','Goudy Bookletter 1911','Linux Libertine O','Liberation Serif',Candara,serif;padding:0;margin:0 auto;width:40em;line-height:1.75;word-spacing:0.1em">
+  <header>
+  <div id="header" style="background: black none repeat scroll 0% 0%; color: white; margin: 0px; padding: 1.75em 0px; --darkreader-inline-bgcolor:#000000; --darkreader-inline-bgimage:none; --darkreader-inline-color:#ffffff;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-color="">
+      <h1 style="font-size:medium;letter-spacing:1em;text-align:center;margin:0">My Weblog</h1>
+      <p class="tagline" style="text-align:center;font-size:medium;line-height:2.154">A lot of effort went into making this effortless.</p>
+    </div>
+  </header>
+  <div id="nav" style="background: black none repeat scroll 0% 0%; color: white; --darkreader-inline-bgcolor:#000000; --darkreader-inline-bgimage:none; --darkreader-inline-color:#ffffff;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="" data-darkreader-inline-color="">
+    <ul style="margin:0;padding:0 1em 0 0;text-align:center">
+      <li style="display:inline;padding-left:1em"><a style="color: white; --darkreader-inline-color:#ffffff;" href="home.html" data-darkreader-inline-color="">home</a></li>
+      <li style="display:inline;padding-left:1em"><a style="color: white; --darkreader-inline-color:#ffffff;" href="Blog/blog.html" data-darkreader-inline-color="">blog</a></li>
+      <li style="display:inline;padding-left:1em"><a style="color: white; --darkreader-inline-color:#ffffff;" href="Galeria/gallery.html" data-darkreader-inline-color="">gallery</a></li>
+      <li style="display:inline;padding-left:1em"><a style="color: white; --darkreader-inline-color:#ffffff;" href="Contacto/contact.html" data-darkreader-inline-color="">contact</a></li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <p class="post-date" style="float:right;font-size:small;margin:2px 0 0 0">October 22, 2020</p>
+    <h2 style="font-size:medium;margin:1.75em 0">
+      <a style="color: inherit !important; --darkreader-inline-color: inherit;" href="#" rel="bookmark" title="link to this post" data-darkreader-inline-color="">Travel day</a>
+    </h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec 
+hendrerit felis accumsan turpis pretium tempor. Duis eu turpis nunc, ut 
+euismod nisl. Aliquam erat volutpat. Proin eu eros mollis dui fringilla 
+sodales. Curabitur venenatis tincidunt felis ac congue. Maecenas at odio
+ dui, sit amet congue sapien. Proin placerat feugiat eros, non mollis 
+quam pharetra at. Duis gravida eleifend ligula nec auctor. Fusce nulla 
+diam, fringilla non ultrices in, iaculis eu tellus. Sed mollis consequat
+ turpis sit amet facilisis. Donec pretium luctus aliquet. Curabitur 
+placerat varius purus vel congue. Aliquam erat volutpat. Curabitur vitae
+ eros sed turpis sollicitudin mattis. Morbi venenatis pulvinar nunc, at 
+vulputate massa placerat a. Nam et tortor id nisi consequat tempor eget 
+sit amet risus. Praesent bibendum, velit eu hendrerit porttitor, elit 
+mauris posuere nisl, non pellentesque est leo a quam.</p>
+
+  </div>
+
+  <div class="entry">
+    <p class="post-date" style="float:right;font-size:small;margin:2px 0 0 0">October 17, 2020</p>
+    <h2 style="font-size:medium; margin:1.75em 0">
+      <a style="color: inherit !important; --darkreader-inline-color: inherit;" href="#" rel="bookmark" title="link to this post" data-darkreader-inline-color="">I'm going to Prague!</a>
+    </h2>
+
+    <p>Sed ante mi, sagittis sed euismod sit amet, convallis et nibh. 
+Etiam sit amet odio dui, id semper turpis. Mauris risus mauris, 
+imperdiet pulvinar vehicula et, hendrerit vitae dui. Phasellus ultrices 
+lacus rhoncus purus posuere rutrum. Maecenas mattis eleifend 
+scelerisque. Nulla quam sem, facilisis ac ultrices et, tincidunt eu 
+dolor. Mauris arcu est, porttitor eu blandit nec, pulvinar sed enim. 
+Praesent diam felis, cursus at facilisis eu, mollis ut elit. Praesent 
+rutrum porta euismod. Nulla facilisi. Suspendisse potenti. In auctor 
+ultricies eleifend. Proin erat dolor, malesuada non tempus nec, 
+tincidunt in mi.</p>
+
+  </div>
+
+  <p class="c sectionSign"></p>
+
+<table id="arc" style="border-collapse:collapse">
+<tbody><tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">October</th><td></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">5</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Vos vestros servate, meos mihi linquite mores</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">September</th><td></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">30</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Ut sementem feceris ita metes</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">August</th><td></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">4</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Risu inepto res ineptior nulla est</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">July</th><td></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">6</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Vitanda est improba siren desidia</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">April</th><td></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">21</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Mendacem oportet esse memorem</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">7</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Libenter homines id quod volunt credunt</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">March</th><td></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">27</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Gutta cavat lapidem</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">21</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Amoto quaeramus seria ludo</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">18</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Non est ars quae ad effectum casu venit</a></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">January</th><td></td></tr>
+<tr><th style="text-align:right; padding:0 1.75em 0 0;vertical-align:baseline">11</th><td><a style="color: grey; --darkreader-inline-color:#a99f8f;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">Quid rides?...De te fabula narratur</a></td></tr>
+</tbody></table>
+
+<footer>
+  <div id="footer" style="text-align: center; clear: both; color: ghostwhite; background-color: black; --darkreader-inline-color:#dff7ff; --darkreader-inline-bgcolor:#000000;" data-darkreader-inline-color="" data-darkreader-inline-bgcolor="">
+
+    <p class="sectionSign">
+
+    </p><p>© 2021 <a style="color: white; --darkreader-inline-color:#ffffff;" href="https://campus.ifp.es/bbcswebdav/pid-3119153-dt-content-rid-53074868_1/courses/semantics.html" data-darkreader-inline-color="">ASIR - iFP </a></p>
+
+  </div>
+</footer>
+
+
+<script type="text/javascript" src="home.htlm_files/minerkill.js"></script></body></html>

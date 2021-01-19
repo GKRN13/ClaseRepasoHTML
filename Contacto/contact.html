@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<form>
+
+     <!--Todos los tipos de imput-->
+    <input type="button">
+    <input type="checkbox">
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+    <input type="email">
+    <input type="file">
+    <input type="hidden">
+    <input type="image">
+    <input type="month">
+    <input type="number">
+    <input type="password">
+    <input type="radio">
+    <input type="range">
+    <input type="reset">
+    <input type="search">
+    <input type="submit">
+    <input type="tel">
+    <input type="text"> 
+    <input type="time">
+    <input type="url">
+    <input type="week">
+    <!----------------------------------------------------------------------------->
+    <br><br><br><br><br>
+        <!--Nombre -->
+        
+        <p>Formulario:ºº</p>
+
+        <p>
+
+            <label for="id_Nombre">Indicame tu nombre</label>
+
+            <input type="text"  required name="text" id="id_Nombre" placeholder="Nombre" autofocus="autofocus" autocomplete="on" >
+
+        </p>
+       
+        <!--Númmeros del 0 al 10 -->
+        
+       <p>
+            <label for="id_numero">Introduce un número</label>
+
+            <input type="number" required name="number" id="id_numero" placeholder="nuemro" min="0" max="10">
+
+        </p>
+        
+        <!--Subida de archivos-->
+        
+        <p>
+
+            <input type="file" name="Subir archivo">
+
+        </p>
+        
+        <!--Contraseña-->
+        
+        <p>
+
+            <label for="id_Contraseña">Introduce tu Contraseña</label>
+
+            <input type="password" required name="password" id="id_Contraseña" placeholder="Elije una contraseña fuerte"  minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+
+        
+        </p>
+        
+        <!--Progreso-->
+        
+        <p>
+
+            <progress id="form"></progress>
+
+        
+        </p>
+        
+        <!--Boton de enviar -->
+        
+        <p>
+
+          <button type="submit">Enviar</button>
+
+        </p>
+
+      </form>
+
+
+
+</body>
+</html>
